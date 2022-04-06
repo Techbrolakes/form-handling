@@ -1,6 +1,14 @@
 import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
+  textStyles: {
+    h1: {
+      fontSize: ["148px", "172px"],
+      fontWeight: "bold",
+      lineHeight: "110%",
+      letterSpacing: "-2%",
+    },
+  },
   config: {
     initialColorMode: "dark",
     useSystemColorMode: false,
